@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dd61bae-2771-4216-983a-7a687c56185d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT21-JAVA-Colset.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OCT21-JAVA-Closet.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +118,7 @@
       <updated>1572620572016</updated>
       <workItem from="1572620577996" duration="4527000" />
       <workItem from="1572630984254" duration="3220000" />
-      <workItem from="1572655207343" duration="200000" />
+      <workItem from="1572655207343" duration="487000" />
     </task>
     <servers />
   </component>

@@ -1,14 +1,72 @@
-import java.util.ArrayList;
-import java.util.Collection;
+import java.util.*;
 
-public class Suitcase extends ArrayList<Item> {
+
+public abstract class Suitcase extends ArrayList<Item>{
+
+//    Note: Instantaneous is controller by inner class "MySuitcase" through Suitcase.get(String)
+//    We need to register all instance
+
+    private static HashMap<String, Suitcase> instanceCollection = new HashMap<>();
+
+    // helper class to work around abstract restriction
+    private static class MySuitcase extends Suitcase {
+        public MySuitcase(String name) {
+            super(name);
+        }
+
+    }
+
+    private static Suitcase getNewInstance(String name) {
+        if (instanceCollection .containsKey(name)) {
+            // If duplicate, throw exception
+            // but first remove the last reference to this method, so people can go to the right line of code
+
+            // Create an exception
+            IllegalArgumentException ex = new IllegalArgumentException("A suitcase '" + name + "' is already existed!");
+            // retrieve stack trace
+            StackTraceElement[] stack = ex.getStackTrace();
+            // remove the last element which refer to this method
+            ex.setStackTrace(Arrays.copyOfRange(stack,1,stack.length));
+
+            // throw it!
+            throw ex;
+
+        }
+        // put new instance and it's name (as key)
+        // MySuitcase is polymorphism (can become Suitcase)
+        instanceCollection.put(name, new MySuitcase(name));
+
+        return instanceCollection.get(name);
+    }
+
+    // Suitcase.get(name) will be available globally
+    public static Suitcase get(String name) {
+        if (instanceCollection.containsKey(name))
+           return instanceCollection.get(name);
+        else
+           return getNewInstance(name);
+    }
+
+    // destroy a suitcase
+    public static Suitcase destroy(String name) {
+        if (instanceCollection.containsKey(name))
+            return instanceCollection.remove(name);
+        else
+            return null;
+    }
+
+    public static Boolean has(String name) {
+        return instanceCollection.containsKey(name);
+    }
 
     private String name;
 
+    // instantaneous not allowed
     public Suitcase() {
-        this("");
+        this("<no name>");
     }
 
+    // instantaneous not allowed
     public Suitcase(String name) {
         super();
         this.name = name;
@@ -32,6 +90,15 @@ public class Suitcase extends ArrayList<Item> {
 
     @Override
     public String toString() {
-        return "Suitcase{++}";
+        StringBuilder content = new StringBuilder();
+        for (Item item : this) {
+            if (content.length() > 0)
+                content.append("\n\t");
+            else
+                content.append("\t");
+            content.append(item);
+        }
+
+        return String.format("Suitcase (%s): \n%s\n",this.name,content);
     }
 }

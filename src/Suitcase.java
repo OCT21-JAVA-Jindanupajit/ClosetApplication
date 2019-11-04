@@ -17,7 +17,7 @@ public abstract class Suitcase extends ArrayList<Item>{
     }
 
     private static Suitcase getNewInstance(String name) {
-        if (instanceCollection .containsKey(name)) {
+        if (instanceCollection.containsKey(name)) {
             // If duplicate, throw exception
             // but first remove the last reference to this method, so people can go to the right line of code
 
@@ -85,9 +85,37 @@ public abstract class Suitcase extends ArrayList<Item>{
     }
 
     public void setName(String name) {
-        this.name = name;
+        Suitcase i;
+        if (! instanceCollection.containsKey(name)) {
+            i = instanceCollection.remove(this.name);
+            instanceCollection.put(name,i);
+            this.name = name;
+        } else {
+            // duplicate
+        }
+
+
     }
 
+    public Suitcase get(Class cls) {
+
+
+        Suitcase sc = new MySuitcase(cls.getName());
+        for (Item i : this) {
+            if (cls.isInstance(i)) {
+                sc.add(i);
+            }
+        }
+
+        return sc;
+    }
+
+    public static HashMap<String, Suitcase> getAll() {
+        return instanceCollection;
+    }
+    public boolean addAll(Item... items) {
+        return Collections.addAll(this, items);
+    }
     @Override
     public String toString() {
         StringBuilder content = new StringBuilder();

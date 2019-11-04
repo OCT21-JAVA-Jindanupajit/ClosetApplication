@@ -2,18 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dd61bae-2771-4216-983a-7a687c56185d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FlipFlop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SuitcaseBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/Closet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/Closet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/ClosetApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/ClosetApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/Footwear.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/Footwear.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/Garment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/Garment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/Jacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/Jacket.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/Pants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/Pants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/Shirt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/Shirt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/Suitcase$MySuitcase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/Suitcase$MySuitcase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/Suitcase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OCT21-JAVA-Closet/Suitcase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Closet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Closet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ClosetApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClosetApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Garment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Garment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shirt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shirt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footwear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footwear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jacket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Suitcase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Suitcase.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +44,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Java8Docs" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
@@ -61,53 +69,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="OCT21-JAVA-Closet" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="OCT21-JAVA-Closet" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ClosetApplication" />
@@ -127,6 +88,7 @@
       <workItem from="1572620577996" duration="4527000" />
       <workItem from="1572630984254" duration="3220000" />
       <workItem from="1572655207343" duration="13425000" />
+      <workItem from="1572875873849" duration="14461000" />
     </task>
     <servers />
   </component>
@@ -138,7 +100,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
